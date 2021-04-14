@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @passenger.name %>
+</p>
+
+<p>
+  <strong>Passenger class:</strong>
+  <%= @passenger.passenger_class %>
+</p>
+
+<p>
+  <strong>Age:</strong>
+  <%= @passenger.age %>
+</p>
+
+<p>
+  <strong>Boat:</strong>
+  <%= @passenger.boat_id %>
+</p>
+
+<%= link_to 'Edit', edit_passenger_path(@passenger) %> |
+<%= link_to 'Back', passengers_path %>
